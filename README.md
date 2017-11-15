@@ -1,18 +1,18 @@
-# Dodee
-Docker Development Environment via docker-compose
+# Dodee (PHP7 + MySQL + Slim Framework)
+*Docker Development Environment via docker-compose*
 
-Run `wget -qO- -O flkone-php_mysql_slim.zip https://github.com/FLKone/Dodee/archive/php_mysql_slim.zip && unzip flkone-php_mysql_slim.zip && rm flkone-php_mysql_slim.zip`
+* Run `wget -qO- -O flkone-php_mysql_slim.zip https://github.com/FLKone/Dodee/archive/php_mysql_slim.zip && unzip flkone-php_mysql_slim.zip && rm flkone-php_mysql_slim.zip`
 
-Rename `Dodee-php_mysql_slim`
+* Rename `Dodee-php_mysql_slim`
 
-`cd` to it
+* `cd` to it
 
-Run `composer create-project slim/slim-skeleton code`
+* Run `composer create-project slim/slim-skeleton code`
 
-Run `docker-compose up`
+* Add `127.0.0.1 default.local` to `/etc/hosts`
 
-Add `127.0.0.1 default.local` to `/etc/hosts`
+* Run `docker-compose up`
 
-Open http://default.local
+* Open http://default.local
 
 Enjoy :D
