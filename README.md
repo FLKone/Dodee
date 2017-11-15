@@ -1,2 +1,2 @@
 # Dodee
-Docker Dev Environnement via docker-compose
+Docker Development Environment via docker-compose
